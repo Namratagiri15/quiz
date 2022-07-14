@@ -1,0 +1,13 @@
+<div class="questions-wrapper">
+    <a id="quiz-{{question.id}}" *ngFor="let question of questions" routerLink="{{question.id}}" 
+       (click)="ItemClicked(question.id)" [ngClass]="question.visited ? 'discard-question' : '' ">
+        {{question.id}}
+    </a>
+</div>
+
+<!-- <div class="questions-wrapper">
+    <a id="quiz-{{question.id}}" *ngFor="let question of questions" routerLink="{{question.id}}" 
+       (click)="ItemClicked(question.id)" appVisited>
+        {{question.id}}
+    </a>
+</div> -->

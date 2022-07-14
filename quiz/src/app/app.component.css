@@ -1,0 +1,13 @@
+header {
+    font-size: 24px;
+    background: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}

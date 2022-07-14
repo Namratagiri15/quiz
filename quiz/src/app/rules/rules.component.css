@@ -1,0 +1,9 @@
+.rules-wrapper {
+    margin: 0 auto;
+    width: 75%;
+}
+
+li {
+    font-size: 30px;
+    margin-top: 10px;
+}

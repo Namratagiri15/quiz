@@ -1,0 +1,23 @@
+.question-image {
+    height: 500px;
+    width: 500px;
+}
+
+.timeout,
+.timer {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    top: 0;
+    position: absolute;
+    font-size: 170px
+}
+
+.timeout {
+  font-size: 50px;
+}
+
+.wrapper {
+    position: absolute;
+    margin-left: 250px;
+}

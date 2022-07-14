@@ -1,0 +1,19 @@
+.questions-wrapper {
+    margin-top: 50px;
+}
+
+a {
+    width: 10%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    background: lightgray;
+    text-decoration: none;
+    box-shadow: 5px 5px darkgrey;
+}
+
+.discard-question {
+    background-color: lightcoral;
+}

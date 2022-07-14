@@ -1,0 +1,8 @@
+<p>Current Login status: {{isLogin}}</p>
+<p>Click below button to login/log out</p>
+<button (click)="login()">
+    <span *ngIf="isLogin"> Logout </span>
+    <span *ngIf="!isLogin"> Login </span>
+</button>
+
+<button appVisited>Test</button>
